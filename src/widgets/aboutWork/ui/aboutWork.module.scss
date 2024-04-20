@@ -1,0 +1,134 @@
+.container {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 32.4px;
+  color: #000;
+}
+
+.textContainer {
+  width: 350px;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444343;
+}
+
+.text::first-letter {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1190px) {
+  .container {
+    width: 620px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .title {
+    width: 180px;
+    font-size: 18px;
+    line-height: 20.4px;
+  }
+
+  .textContainer {
+    width: 180px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .text::first-letter {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 300px;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .title {
+    width: 300px;
+    font-size: 20px;
+    line-height: 26.4px;
+    color: #000;
+  }
+
+  .textContainer {
+    width: 280px;
+  }
+
+  .subtitle {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    margin-top: 20px;
+  }
+
+  .text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444343;
+  }
+
+  .text::first-letter {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+  }
+}

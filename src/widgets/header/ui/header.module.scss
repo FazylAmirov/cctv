@@ -1,0 +1,225 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logoImage {
+  width: 250px;
+  height: 85px;
+  object-fit: cover;
+}
+
+.headerTitle {
+  max-width: 304px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 2%;
+  color: #666666;
+  margin: 9px 0 13px 74px;
+}
+
+.workContainer {
+  max-width: 149px;
+  display: flex;
+  flex-direction: column;
+  margin: 1px 0 0 72px;
+}
+
+.hourWork {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: calc(18px * -0.03);
+  color: #333333;
+}
+
+.address {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2%;
+  color: #333333;
+}
+
+.phNumberContainer {
+  max-width: 193px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 128px;
+}
+
+.phNumber {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2%;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.feedbackButton {
+  font-family: 'Lato';
+  margin: 0;
+  padding: 0;
+  width: 193px;
+  height: 37px;
+  background-color: #087792;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+  border: none;
+}
+
+.feedbackButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1190px) {
+  .logoImage {
+    width: 120px;
+    height: 40.8px;
+  }
+
+  .headerTitle {
+    width: 120px;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.02px;
+    margin: 7px 0 11px 45px;
+  }
+
+  .workContainer {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px 0 0 33px;
+  }
+
+  .hourWork {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: calc(15px * -0.05);
+    margin-bottom: 6px;
+  }
+
+  .address {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+  }
+
+  .phNumberContainer {
+    width: 150px;
+    margin-left: 32px;
+  }
+
+  .phNumber {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    margin-bottom: 2px;
+  }
+
+  .feedbackButton {
+    width: 118px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 11px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .logoImage {
+    width: 300px;
+    height: 90px;
+  }
+
+  .headerTitle {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 2%;
+    color: #666666;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .workContainer {
+    margin: 0;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .hourWork {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .address {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  .phNumberContainer {
+    margin: 0;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  .phNumber {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 23px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .feedbackButton {
+    margin: 0;
+    padding: 0;
+    width: 193px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

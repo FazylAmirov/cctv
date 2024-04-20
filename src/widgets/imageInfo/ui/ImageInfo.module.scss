@@ -1,0 +1,209 @@
+.mainContainer {
+  margin-top: 11px;
+  background-image: url(../images/kandinskyVall.png);
+  background-size: cover;
+  background-position: 90% 75%;
+  width: 1170px;
+  height: 428.19px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 1170px;
+  height: 428.19px;
+  background-color: rgba(31, 68, 74, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  width: 441px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: calc(16px * 0.01);
+  color: #ffffff;
+  margin-top: 106px;
+  margin-left: 100px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  width: 408px;
+  font-weight: 400;
+  font-size: 38.5px;
+  line-height: 38.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 100px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  width: 435px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-left: 100px;
+}
+
+.feedbackButton {
+  font-family: 'Lato';
+  background-color: #ffffff;
+  width: 200px;
+  height: 38px;
+  border: none;
+  margin-top: 12px;
+  margin-left: 100px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.feedbackButton:hover {
+  cursor: pointer;
+}
+
+.feedbackLink {
+  margin: 0;
+  padding: 0;
+}
+
+.feedbackLink:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1190px) {
+  .mainContainer {
+    margin-top: 11px;
+    width: 620px;
+    height: 228px;
+    background-position: 85% 25%;
+  }
+
+  .wrapper {
+    width: 620px;
+    height: 228px;
+  }
+
+  .subtitle {
+    width: 441px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    letter-spacing: calc(16px * 0.01);
+    color: #ffffff;
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+
+  .title {
+    margin: 0;
+    padding: 0;
+    width: 408px;
+    font-size: 26px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .text {
+    margin: 0;
+    padding: 0;
+    width: 435px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: 12px;
+    margin-left: 30px;
+  }
+
+  .feedbackButton {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 32px;
+    margin-top: 12px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .mainContainer {
+    margin-top: 11px;
+    width: 320px;
+    height: 500px;
+    background-size: cover;
+    background-position: 97.8% 75%;
+  }
+
+  .wrapper {
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subtitle {
+    margin: 0;
+    width: 300px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 12px;
+    letter-spacing: calc(8px * 0.01);
+    margin-top: 250px;
+    text-align: center;
+  }
+
+  .title {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .text {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .feedbackButton {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 42px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
